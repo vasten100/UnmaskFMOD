@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{6f848439-93ba-4d63-b0e5-d978ac70e2b1}">
+		<property name="assetPath">
+			<value>Soundeffekte/Husten/cough7.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.1040000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7ee49436-a836-4e1d-9b24-a33331829bf4}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -106,6 +106,9 @@
 			<destination>{2fe81197-e7b6-404f-a495-819fc9025c04}</destination>
 			<destination>{de2434ae-e2e3-4e6e-887a-dcff898e5a81}</destination>
 		</relationship>
+		<relationship name="playPercentages">
+			<destination>{4d275e8c-f6b8-47de-96ee-0117089fd38c}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{400cdb3a-484d-483b-821d-64248aac7491}">
 		<property name="name">
@@ -162,6 +165,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{4f44b820-c04c-4238-975b-9b180663b843}">
+		<property name="volume">
+			<value>1.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{9e43effc-9205-43ef-9f60-b2f68b290a79}</destination>
 		</relationship>
@@ -172,28 +178,51 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{18fafee4-bf2c-4302-b105-03952a1b329a}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{39eae10e-fd88-4d30-b609-8500a44a4532}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{37bd1074-d8cc-49e7-91bf-50e24ff9c557}">
+		<property name="volume">
+			<value>5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{d637dfcd-cb34-47ea-9006-ed3b5a285ceb}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{d6d18aaa-b78b-4582-9b06-6da59317b786}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{9758f36c-a8c5-4397-aa17-dd55d0924bbf}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{2fe81197-e7b6-404f-a495-819fc9025c04}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{4d4a7616-300a-43b1-9232-e0af516ccfae}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{de2434ae-e2e3-4e6e-887a-dcff898e5a81}">
+		<property name="volume">
+			<value>3</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{5e52d634-9796-4018-83e5-14fd2356cd52}</destination>
+		</relationship>
+	</object>
+	<object class="PlayPercentage" id="{4d275e8c-f6b8-47de-96ee-0117089fd38c}">
+		<property name="percentage">
+			<value>15</value>
+		</property>
+		<relationship name="sound">
+			<destination>{ef3b33e2-43bd-4e32-8a98-eb25b5152ee1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{fcffa3ad-e0ad-4747-85dd-8bbd7e89e11f}">

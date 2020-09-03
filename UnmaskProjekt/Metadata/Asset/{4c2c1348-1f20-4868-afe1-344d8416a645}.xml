@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{4c2c1348-1f20-4868-afe1-344d8416a645}">
+		<property name="assetPath">
+			<value>Soundeffekte/Husten/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7ee49436-a836-4e1d-9b24-a33331829bf4}</destination>
+		</relationship>
+	</object>
+</objects>
