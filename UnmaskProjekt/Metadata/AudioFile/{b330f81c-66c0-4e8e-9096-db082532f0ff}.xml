@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{b330f81c-66c0-4e8e-9096-db082532f0ff}">
+		<property name="assetPath">
+			<value>Soundeffekte/Maske Rip/mask1.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.5485714285714286</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7ee49436-a836-4e1d-9b24-a33331829bf4}</destination>
+		</relationship>
+	</object>
+</objects>
